@@ -6,6 +6,8 @@
 
 
 
+
+
 # @name Student_GET
 GET {{server}}/odata/v4/my/Student
 {{auth}}
