@@ -1,15 +1,7 @@
+const { Student } = require('../db/schema');
 
-const { Student } = require('../db/schema'); 
-
-module.exports  = (srv) => {
-
-
-    srv.on('CREATE',Student, async (req) => {
-
-       this. 
-
-
-
+module.exports = (srv) => {
+    srv.on('CREATE', Student, async (req) => {
+      
     });
-
-}
+};
